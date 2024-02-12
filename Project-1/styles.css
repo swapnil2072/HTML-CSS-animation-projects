@@ -38,18 +38,24 @@ nav h1 {
     justify-content: center;
     align-items: center;
     font-size: 3vw;
-    font-family: monospace;
+    font-family: Monument;
+    letter-spacing: -2px;
 }
 
 nav h2 {
     height: 100%;
-    width: 22%;
+    width: 21%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-right: 2px solid #000;
     font-size: 1.4vw;
     font-weight: 600;
+}
+
+nav h2:nth-last-child(2) {
+    width: 24%;
+
 }
 
 nav h2:nth-last-child(1) {
