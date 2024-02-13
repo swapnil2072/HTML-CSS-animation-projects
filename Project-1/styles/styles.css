@@ -132,3 +132,42 @@ main #over2 h4 {
 main #over2 img {
     font-size: 1vw;
 }
+
+#scroll {
+    height: 45vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#scroll img {
+    height: 18vw;
+    width: 19vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 22% 25%;
+    margin: 1vw;
+}
+
+#container {
+    padding: 1vw;
+    display: inline-block;
+    height: 100%;
+    width: 215%;
+    animation: anime;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes anime {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
