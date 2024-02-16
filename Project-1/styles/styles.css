@@ -423,10 +423,12 @@ main #over2 img {
     align-items: center;
     font-family: sans-serif;
     position: relative;
+    
 }
 
 .element:nth-last-child(1) {
     border-bottom: 2px solid #000;
+    margin-bottom: 20vh;
 }
 
 .element img {
@@ -480,4 +482,72 @@ main #over2 img {
     font-size: 1.1vw;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+#page6{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 15vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4vw;
+}
+
+#page6 #left {
+    width: 40%;
+    height: 120%;
+}
+#page6 #left img{
+    margin-top: 4vh;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+#page6 #right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#page6 h1 {
+    font-family: Monument;
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-left: 2vw;
+}
+#page6 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+    padding-left: 2vw;
+    margin-top: 2vh;
+}
+
+
+#right #right-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding: 1vw;
+}
+
+#right-content img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    padding: 1vw;
 }
