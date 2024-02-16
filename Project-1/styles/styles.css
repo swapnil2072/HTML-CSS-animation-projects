@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-    height: 11vh;
+    height: 12vh;
     width: 100%;
     margin-top: 2vw;
     border-top: 2px solid #000;
@@ -34,13 +34,36 @@ nav {
 
 nav h1 {
     height: 100%;
-    width: 20%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3vw;
     font-family: Monument;
     letter-spacing: -2px;
+    position: relative;
+}
+
+nav h1::after {
+    content: "©";
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.8vw;
+    position: absolute;
+    top: -4%;
+    right: 20%;
+}
+
+nav h1::before {
+    content: "model management";
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+    position: absolute;
+    top: 70%;
+    right: 23%;
+    letter-spacing: 1px;
+    color: #2c2b2b;
 }
 
 nav h2 {
@@ -625,5 +648,36 @@ main #over2 img {
     width: 85%;
     padding: 1vw;
     padding-left: 10vw;
+}
 
+#marque {
+    width: 100%;
+    padding: 0.7vw;
+    white-space: nowrap;
+    overflow: hidden;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#marque h1 {
+    font-family: Monument;
+    font-size: 5vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+    letter-spacing: 2px;
+    margin-right: 1rem;
+    animation: marque-anime 4s linear infinite;
+}
+
+@keyframes marque-anime {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
 }
