@@ -8,6 +8,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 #main {
@@ -423,7 +424,7 @@ main #over2 img {
     align-items: center;
     font-family: sans-serif;
     position: relative;
-    
+
 }
 
 .element:nth-last-child(1) {
@@ -484,7 +485,7 @@ main #over2 img {
     text-transform: uppercase;
 }
 
-#page6{
+#page6 {
     height: 100vh;
     width: 100vw;
     margin-top: 15vw;
@@ -499,7 +500,8 @@ main #over2 img {
     width: 40%;
     height: 120%;
 }
-#page6 #left img{
+
+#page6 #left img {
     margin-top: 4vh;
     width: 100%;
     height: 100%;
@@ -508,7 +510,7 @@ main #over2 img {
 
 }
 
-#page6 #right{
+#page6 #right {
     width: 55%;
     height: 100%;
     display: flex;
@@ -524,6 +526,7 @@ main #over2 img {
     letter-spacing: 4px;
     padding-left: 2vw;
 }
+
 #page6 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -533,7 +536,7 @@ main #over2 img {
 }
 
 
-#right #right-content{
+#right #right-content {
     width: 100%;
     height: 100%;
     display: flex;
@@ -543,11 +546,84 @@ main #over2 img {
     padding: 1vw;
 }
 
-#right-content img{
+#right-content img {
     height: 90%;
     width: 100%;
     object-fit: cover;
     object-position: top;
     border-radius: 20px;
     padding: 1vw;
+}
+
+#page7 {
+    height: 100vw;
+    width: 100vw;
+    margin-top: 15vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+#page7 #upper-part {
+    height: 50%;
+    width: 95%;
+}
+
+#page7 #upper-part img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    margin: 1vw;
+}
+
+
+#page7 #lower-part {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lower-part #lower-left {
+    height: 100%;
+    width: 50%;
+}
+
+#lower-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    padding: 1vw;
+}
+
+#lower-part #lower-right {
+    height: 100%;
+    width: 50%;
+}
+
+#lower-right img {
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    padding: 1vw;
+}
+
+#lower-right h2 {
+    font-size: 2.85vw;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85%;
+    padding: 1vw;
+    padding-left: 10vw;
+
 }
