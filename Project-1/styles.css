@@ -340,7 +340,7 @@ main #over2 img {
 #right_section {
     height: 100%;
     width: 65%;
-    background-image: url(/images/img1.jpg);
+    background-image: url(./images/img1.jpg);
     background-size: cover;
     border-radius: 15px;
     background-position: center;
@@ -415,7 +415,7 @@ main #over2 img {
     margin: 1vw;
     height: 100vh;
     width: 90vw;
-    background-image: url("/images/page4.jpg");
+    background-image: url("./images/page4.jpg");
     background-size: cover;
     border-radius: 15px;
     /* background-color: purple; */
