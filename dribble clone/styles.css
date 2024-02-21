@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    padding: 1vw 3vw;
+}
+
+nav {
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#part1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#part1 h4 {
+    font-size: 1.05vw;
+    font-weight: 500;
+}
+
+nav img {
+    height: 70%;
+    width: 40%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#part2 {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#part2 button {
+    padding: 0.6vw 1.2vw;
+    border-radius: 50px;
+    font-size: 1vw;
+    font-weight: 600;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    margin: 0 0.35vw;
+}
+
+#part2 #login {
+    background-color: transparent;
+    color: black;
+}
+
+#content {
+    height: calc(100% - 6vw);
+    width: 100%;
+}
